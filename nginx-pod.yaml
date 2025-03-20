@@ -9,3 +9,7 @@ spec:
     image: nginx:1.14.2
     ports:
     - containerPort: 80
+    resources:
+      requests:
+        memory: "512Mi"
+        cpu: "1"
